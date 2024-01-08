@@ -1,0 +1,42 @@
+// http method
+// get
+// put
+// patch
+// post
+// delete
+
+import { Children } from "react";
+import { NavLink, Navigate, Outlet } from "react-router-dom";
+
+
+// json-server --watch db.json --port 5000
+
+
+// localStorage
+// Syntax
+// window.localStorage
+// or just:
+// localStorage
+// Save Data to Local Storage
+// localStorage.setItem(key, value);
+// Read Data from Local Storage
+// let lastname = localStorage.getItem(key);
+// Remove Data from Local Storage
+// localStorage.removeItem(key);
+// Remove All (Clear Local Storage)
+// localStorage.clear();
+// Parameters
+// Parameter	Description
+// key	Required.
+// The name of a key.
+
+
+//state- use state
+// props - Children prop();
+// conditional CanvasRenderingContext2D, classes,Style
+// display list - using map()
+// use Effect()-
+// routing - child routes and Outlet
+// link and NavLink
+// Navigate
+// context api - to keep the data centralized

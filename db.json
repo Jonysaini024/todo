@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "name": "deepakAB",
+      "email": "deepakab@gmail.com",
+      "password": "deepak",
+      "id": 1
+    },
+    {
+      "name": "Jony",
+      "email": "jonysaini024@gmail.com",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "password": "1234",
+      "name": "Jyoti",
+      "email": "jyotisaini024@gamil.com",
+      "id": 3
+    }
+  ],
+  "tasks": [
+    {
+      "title": "meeting ",
+      "userId": 1,
+      "modifiedOn": "Mon Nov 27 2023 21:07:05 GMT+0530 (India Standard Time)",
+      "description": "meeting with clients",
+      "duedate": "2023-11-29T23:32",
+      "id": 1
+    },
+    {
+      "title": "cricket ",
+      "userId": 1,
+      "modifiedOn": "Mon Nov 27 2023 21:18:20 GMT+0530 (India Standard Time)",
+      "description": "cricket match india vs pakistan 20",
+      "duedate": "2023-11-30T23:24",
+      "id": 2
+    },
+    {
+      "title": "gym",
+      "userId": 2,
+      "modifiedOn": "Mon Nov 27 2023 22:04:13 GMT+0530 (India Standard Time)",
+      "description": "sunday holiday",
+      "duedate": "2024-01-31T12:09",
+      "id": 3
+    },
+    {
+      "title": "gym",
+      "description": "sunday close",
+      "duedate": "2023-12-02T05:07",
+      "userId": 2,
+      "modifiedOn": "Tue Nov 28 2023 09:00:27 GMT+0530 (India Standard Time)",
+      "id": 4
+    },
+    {
+      "title": "gym",
+      "description": "sunday close",
+      "duedate": "2023-12-02T05:07",
+      "userId": 2,
+      "modifiedOn": "Tue Nov 28 2023 09:00:27 GMT+0530 (India Standard Time)",
+      "id": 5
+    },
+    {
+      "title": "gym",
+      "description": "sunday close",
+      "duedate": "2023-12-02T05:07",
+      "userId": 2,
+      "modifiedOn": "Tue Nov 28 2023 09:00:27 GMT+0530 (India Standard Time)",
+      "id": 6
+    },
+    {
+      "title": "meeting",
+      "userId": 2,
+      "modifiedOn": "Tue Nov 28 2023 20:42:17 GMT+0530 (India Standard Time)",
+      "description": "cleint meeting",
+      "duedate": "2023-11-30T11:00",
+      "id": 7
+    },
+    {
+      "title": "",
+      "description": "",
+      "duedate": "",
+      "id": 8
+    },
+    {
+      "title": "",
+      "description": "",
+      "duedate": "",
+      "id": 9
+    },
+    {
+      "title": "meeting",
+      "userId": 2,
+      "modifiedOn": "Sat Dec 02 2023 21:17:30 GMT+0530 (India Standard Time)",
+      "description": "client meeting",
+      "duedate": "2023-12-04T11:55",
+      "id": 10
+    }
+  ]
+}

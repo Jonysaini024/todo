@@ -1,0 +1,108 @@
+{
+                    actionType === "view" ?
+                        <div>
+                            <h5>{data?.title}</h5>
+                            <p>{data?.description}</p>
+                            <div className="d-flex">
+                                <p className='mb-0'>Modification On: {formatDate(data?.modifiedOn)}</p>
+                                <p className='mb-0 ms-auto'>Due Date: {formatDate(data?.duedate)}</p>
+                            </div>
+                        </div>
+                        : actionType === "edit" ?
+                            <TaskForm isupdate={true} data={data} closeBtn={closeBtn} isPopup={true} />
+                            :
+                           
+                                  
+                <div>
+                    {message !== "" ?
+                        <p>{message}</p> :
+                        <p>are you sure, you want to delete this task?</p>
+                    }
+                    <div className="d-flex mt-5">
+                        <button className='btn btn-danger' onClick={onDelete}>yes</button>
+                        <button className='btn btn-warning' data-bs-dismiss="model">no</button>
+                    </div>
+                </div>
+                        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <nav class="navbar navbar-expand-lg navbar-light bg-white" aria-label="Fifth navbar example">
+      <div class="container-fluid">
+        <Link class="navbar-brand" to="#">
+          <img src={logo} alt="todo" />
+        </Link>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample05">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            {
+              !user ?
+                <>
+                  <li class="nav-item">
+                    <Link class="nav-link " aria-current="page" to="/">Home</Link>
+                  </li>
+                  <li class="nav-item">
+                    <Link class="nav-link" to="/about">About</Link>
+                  </li>
+                </> :
+                <>
+                  <li class="nav-item" >
+                    <Link class="nav-link" to="/create-task" >create Task
+                    </Link></li>
+                  <li class="nav-item" >
+                    <Link class="nav-link" to="/task-list" >TaskList
+                    </Link></li>
+                 
+                  <li class="nav-item">
+                    <Link class="nav-link" to="/profile">profile</Link>
+                  </li>
+                  <li class="nav-item">
+                  <Link className="dropdown-item" onClick={logout}>Logout</Link>
+                  </li>
+                
+
+                  <li className="nav-item dropdown">
+                    <Link className="nav-link dropdown-toggle" to="#" data-bs-toggle="dropdown" aria-expanded="false">{user.name}</Link>
+                    <ul className="dropdown-menu">
+                      <li><Link className="dropdown-item" to="#">Action</Link></li>
+                      <li><Link className="dropdown-item" to="#">Another action</Link></li>
+                      <li><span className="dropdown-item" onClick={logout}>Logout</span></li>
+                    </ul>
+                  </li>
+
+                </>
+            }
+          </ul>
+
+          <form role="search">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search" />
+          </form>
+
+        </div>
+      </div>
+    </nav></>
+
+
+
+    
